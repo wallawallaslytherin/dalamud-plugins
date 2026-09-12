@@ -1,0 +1,31 @@
+[
+  {
+    "Author": "wallawallaslytherin",
+    "Name": "Frame Mouseover",
+    "InternalName": "FrameMouseover",
+    "AssemblyVersion": "0.1.0.0",
+    "Description": "Use any eligible friendly-targeted spell or ability on the unit under your cursor in the native party, alliance, or other unit frames. Automatically reads action targeting rules; no spell lists or macros. Keeps your selected target and native action queue.",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "mouseover",
+      "healing",
+      "party",
+      "alliance"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Automatic friendly mouseover casting with no spell lists.",
+    "AcceptsFeedback": false,
+    "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.1.0.0/FrameMouseover.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.1.0.0/FrameMouseover.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.1.0.0/FrameMouseover.zip",
+    "LastUpdate": 1789243768,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "Changelog": "Initial release: automatic friendly mouseover casting on native unit frames, with normal targeting and action queue behavior preserved."
+  }
+]
