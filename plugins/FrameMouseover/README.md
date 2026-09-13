@@ -17,9 +17,14 @@ click an ordinary hotbar icon ends that frame mouseover.
   hovered recipient when the game permits it.
 - Self-only abilities still affect yourself; party-only abilities remain party-only.
 - Queued actions keep the recipient chosen when you pressed the action.
-- Hostile actions, explicit macros and ground-placement actions keep their normal behavior.
+- Invalid friendly mouseovers are blocked by default, preventing accidental
+  fallback to yourself or a different selected recipient. Strict mode is configurable.
+- Optional held modifiers force self-cast or bypass mouseover for that press.
+- Optional ground placement uses the hovered ally's feet, retains queueing, and
+  rechecks the recipient before execution. It starts disabled.
+- Hostile actions and explicit macros keep their normal behavior.
 - Range, line of sight, MP, cooldowns and other normal game restrictions apply.
-- With no eligible frame mouseover, normal targeting is preserved.
+- With no friendly frame mouseover, normal targeting is preserved.
 
 Custom unit-frame plugins must publish the game's native UI mouseover target to
 work with Frame Mouseover. Another plugin that changes action targeting can affect
@@ -31,14 +36,40 @@ the final recipient.
 | --- | --- |
 | `/framemouseover` | Show current status. |
 | `/framemouseover status` | Show current status. |
-| `/framemouseover test` | Run read-only runtime diagnostics. |
-| `/framemouseover on` | Enable mouseover casting. |
+| `/framemouseover config` | Open settings and recent cast history. |
+| `/framemouseover test` | Run 12 routing simulations and live dependency checks; casts no spells. |
+| `/framemouseover history` | Show recent relevant casts and rejection reasons. |
+| `/framemouseover on` or `recover` | Check dependencies, clear suspension and enable mouseover. |
 | `/framemouseover off` | Disable mouseover casting. |
+| `/framemouseover strict on` or `strict off` | Block invalid friendly mouseovers, or allow normal targeting fallback. |
+| `/framemouseover ground on` or `ground off` | Enable or disable ground placement at hovered allies. |
+| `/framemouseover bind self alt` | Example: hold Alt to cast on yourself when supported. |
+| `/framemouseover bind bypass ctrl` | Example: hold Ctrl to use normal game targeting. |
+| `/framemouseover bind ground shift` | Example: require Shift for automatic ground placement. |
+
+Modifier assignments start unset. Choose distinct Shift/Ctrl/Alt combinations,
+such as `ctrl+shift`, or `none` to clear one. Combinations match exactly; your
+modified hotbar keybind must still invoke the intended action. With ground
+placement enabled, an unset ground modifier applies it whenever a friendly frame
+is hovered. If automatic placement is cancelled, use the native reticle manually
+or press Escape.
+
+A routing fault suspends mouseover and gives one notice. Status and settings
+show the fault; `on` and `recover` both run checks before restoring it.
+History retains 64 relevant attempts; damage spam does not push them out. Queue
+acceptance and observed client execution are distinguished, but neither proves
+a server-applied heal or effect.
 
 ## Installation and requirements
 
 Follow the [repository installation instructions](../../README.md).
 Requires Dalamud API 15. No other plugin is required.
+
+## Version 0.2.0.0
+
+Strict invalid-hover protection; checked suspension recovery; self/bypass
+modifiers; relevant cast history and routing dry runs; opt-in ground placement.
+No spell lists or per-job setup are introduced. Settings stay closed on startup.
 
 ## Version 0.1.0.0
 
