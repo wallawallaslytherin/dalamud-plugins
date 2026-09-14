@@ -3,7 +3,7 @@
     "Author": "wallawallaslytherin",
     "Name": "Frame Mouseover",
     "InternalName": "FrameMouseover",
-    "AssemblyVersion": "0.2.0.0",
+    "AssemblyVersion": "0.2.1.0",
     "Description": "Automatic friendly casting through native unit frames, with no spell lists or macros. Includes strict invalid-recipient protection, self-cast and bypass modifiers, useful cast history, checked recovery, and optional ground placement at hovered allies. Keeps your selected target and native action queue.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -20,12 +20,12 @@
     "Punchline": "Automatic friendly mouseover casting with no spell lists.",
     "AcceptsFeedback": false,
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.0.0/FrameMouseover.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.0.0/FrameMouseover.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.0.0/FrameMouseover.zip",
-    "LastUpdate": 1789343470,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.1.0/FrameMouseover.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.1.0/FrameMouseover.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.1.0/FrameMouseover.zip",
+    "LastUpdate": 1789344336,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "Changelog": "Strict invalid-hover protection; checked suspension recovery; self-cast and bypass modifiers; relevant cast history and 12 routing dry runs; opt-in ground placement with captured queue recipients and execution-time validation. Strict mode starts on; ground placement and modifier assignments start off/unset."
+    "Changelog": "Fix ground placement stopping when the native ground reticle opens. Correctly handles the separate area-targeting flag, including queued ground actions, without claiming unrelated existing reticles. Range errors now show distance and action range. Includes 13 routing dry runs."
   }
 ]

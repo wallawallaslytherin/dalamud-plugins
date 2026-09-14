@@ -21,7 +21,7 @@ Regular Dalamud is sufficient; no custom runtime or developer-plugin setup is re
 
 | Plugin | Version | Description |
 | --- | --- | --- |
-| [Frame Mouseover](plugins/FrameMouseover/README.md) | 0.2.0.0 | Automatic friendly mouseover, strict recipient protection, modifier overrides and optional ground placement. No spell lists or macros. |
+| [Frame Mouseover](plugins/FrameMouseover/README.md) | 0.2.1.0 | Automatic friendly mouseover, strict recipient protection, modifier overrides and optional ground placement. No spell lists or macros. |
 
 This repository distributes plugin packages and the installer manifest. It is public
 and separate from Dalamud's default plugin repository.
