@@ -37,7 +37,7 @@ the final recipient.
 | `/framemouseover` | Show current status. |
 | `/framemouseover status` | Show current status. |
 | `/framemouseover config` | Open settings and recent cast history. |
-| `/framemouseover test` | Run 12 routing simulations and live dependency checks; casts no spells. |
+| `/framemouseover test` | Run 13 routing simulations and live dependency checks; casts no spells. |
 | `/framemouseover history` | Show recent relevant casts and rejection reasons. |
 | `/framemouseover on` or `recover` | Check dependencies, clear suspension and enable mouseover. |
 | `/framemouseover off` | Disable mouseover casting. |
@@ -64,6 +64,13 @@ a server-applied heal or effect.
 
 Follow the [repository installation instructions](../../README.md).
 Requires Dalamud API 15. No other plugin is required.
+
+## Version 0.2.1.0
+
+Fix ground placement stopping after the native reticle opens. Queued ground
+actions retain their captured recipient; unrelated existing reticles are left
+alone. Range errors now include distance and the action's range. Real range
+restrictions still apply.
 
 ## Version 0.2.0.0
 
