@@ -1,9 +1,9 @@
 [
   {
     "Author": "wallawallaslytherin",
-    "Name": "Frame Mouseover",
+    "Name": "Hovercast",
     "InternalName": "FrameMouseover",
-    "AssemblyVersion": "0.2.1.0",
+    "AssemblyVersion": "0.2.2.0",
     "Description": "Automatic friendly casting through native unit frames, with no spell lists or macros. Includes strict invalid-recipient protection, self-cast and bypass modifiers, useful cast history, checked recovery, and optional ground placement at hovered allies. Keeps your selected target and native action queue.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -20,12 +20,12 @@
     "Punchline": "Automatic friendly mouseover casting with no spell lists.",
     "AcceptsFeedback": false,
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.1.0/FrameMouseover.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.1.0/FrameMouseover.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.1.0/FrameMouseover.zip",
-    "LastUpdate": 1789344336,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.2.0/FrameMouseover.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.2.0/FrameMouseover.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.2.0/FrameMouseover.zip",
+    "LastUpdate": 1789348116,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "Changelog": "Fix ground placement stopping when the native ground reticle opens. Correctly handles the separate area-targeting flag, including queued ground actions, without claiming unrelated existing reticles. Range errors now show distance and action range. Includes 13 routing dry runs."
+    "Changelog": "Hovercast uses /hovercast to open settings. Updated the plugin name, UI, help and documentation; /hovercast is the only registered command. Existing settings and the normal update path are preserved. Casting behavior is unchanged."
   }
 ]

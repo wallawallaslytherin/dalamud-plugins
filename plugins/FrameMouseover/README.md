@@ -1,4 +1,4 @@
-# Frame Mouseover
+# Hovercast
 
 Cast friendly spells and abilities on the character beneath your cursor in native
 party, alliance, and other unit frames, without changing your selected target.
@@ -27,25 +27,25 @@ click an ordinary hotbar icon ends that frame mouseover.
 - With no friendly frame mouseover, normal targeting is preserved.
 
 Custom unit-frame plugins must publish the game's native UI mouseover target to
-work with Frame Mouseover. Another plugin that changes action targeting can affect
+work with Hovercast. Another plugin that changes action targeting can affect
 the final recipient.
 
 ## Commands
 
 | Command | Effect |
 | --- | --- |
-| `/framemouseover` | Show current status. |
-| `/framemouseover status` | Show current status. |
-| `/framemouseover config` | Open settings and recent cast history. |
-| `/framemouseover test` | Run 13 routing simulations and live dependency checks; casts no spells. |
-| `/framemouseover history` | Show recent relevant casts and rejection reasons. |
-| `/framemouseover on` or `recover` | Check dependencies, clear suspension and enable mouseover. |
-| `/framemouseover off` | Disable mouseover casting. |
-| `/framemouseover strict on` or `strict off` | Block invalid friendly mouseovers, or allow normal targeting fallback. |
-| `/framemouseover ground on` or `ground off` | Enable or disable ground placement at hovered allies. |
-| `/framemouseover bind self alt` | Example: hold Alt to cast on yourself when supported. |
-| `/framemouseover bind bypass ctrl` | Example: hold Ctrl to use normal game targeting. |
-| `/framemouseover bind ground shift` | Example: require Shift for automatic ground placement. |
+| `/hovercast` | Open settings. |
+| `/hovercast status` | Show current status. |
+| `/hovercast config` or `/hovercast settings` | Open settings and recent cast history. |
+| `/hovercast test` | Run 13 routing simulations and live dependency checks; casts no spells. |
+| `/hovercast history` | Show recent relevant casts and rejection reasons. |
+| `/hovercast on` or `recover` | Check dependencies, clear suspension and enable mouseover. |
+| `/hovercast off` | Disable mouseover casting. |
+| `/hovercast strict on` or `strict off` | Block invalid friendly mouseovers, or allow normal targeting fallback. |
+| `/hovercast ground on` or `ground off` | Enable or disable ground placement at hovered allies. |
+| `/hovercast bind self alt` | Example: hold Alt to cast on yourself when supported. |
+| `/hovercast bind bypass ctrl` | Example: hold Ctrl to use normal game targeting. |
+| `/hovercast bind ground shift` | Example: require Shift for automatic ground placement. |
 
 Modifier assignments start unset. Choose distinct Shift/Ctrl/Alt combinations,
 such as `ctrl+shift`, or `none` to clear one. Combinations match exactly; your
@@ -64,6 +64,15 @@ a server-applied heal or effect.
 
 Follow the [repository installation instructions](../../README.md).
 Requires Dalamud API 15. No other plugin is required.
+
+
+
+## Version 0.2.2.0
+
+Hovercast uses `/hovercast` to open settings. The plugin name, UI, help and docs
+use Hovercast consistently, and `/hovercast` is the only registered command.
+Existing settings and the normal update path are preserved; no reinstall is
+needed. Casting behavior is unchanged.
 
 ## Version 0.2.1.0
 
