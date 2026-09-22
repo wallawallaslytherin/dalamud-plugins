@@ -1,0 +1,16 @@
+{
+  "Author": "wallawallaslytherin",
+  "Name": "Gearset Organizer",
+  "InternalName": "GearsetOrganizer",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Preview and organize existing gearsets by role and job, with guarded sorting and undo. Works independently without companion plugins.",
+  "Punchline": "Organize your saved gearsets.",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
+  "Tags": ["gearsets", "utility"],
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "AcceptsFeedback": false
+}

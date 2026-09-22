@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\GearsetOrganizer\OrganizerView.cs" Link="OrganizerView.cs" />
+    <Compile Include="..\GearsetOrganizer\GearsetAutomationPolicy.cs" Link="GearsetAutomationPolicy.cs" />
+    <Compile Include="..\GearsetOrganizer\Core\GearsetOrganization.cs" Link="Core\GearsetOrganization.cs" />
+    <Compile Include="..\GearsetOrganizer\Core\GearsetMacroReferences.cs" Link="Core\GearsetMacroReferences.cs" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.3.0" />
+    <PackageReference Include="xunit.v3" Version="3.2.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
