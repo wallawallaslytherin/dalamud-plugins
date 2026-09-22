@@ -65,8 +65,6 @@ a server-applied heal or effect.
 Follow the [repository installation instructions](../../README.md).
 Requires Dalamud API 15. No other plugin is required.
 
-
-
 ## Version 0.2.2.0
 
 Hovercast uses `/hovercast` to open settings. The plugin name, UI, help and docs
