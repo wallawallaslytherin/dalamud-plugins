@@ -20,7 +20,7 @@ Keep the repository enabled to receive updates through Dalamud's plugin installe
 
 | Plugin | Version | Description |
 | --- | --- | --- |
-| [Hovercast](plugins/FrameMouseover/README.md) | 0.2.2.0 | Automatic friendly mouseover, strict recipient protection, modifier overrides and optional ground placement. No spell lists or macros. |
+| [Hovercast](plugins/FrameMouseover/README.md) | 0.2.3.0 | Automatic friendly mouseover, strict recipient protection, modifier overrides and optional ground placement. No spell lists or macros. |
 | [Gearset Organizer](plugins/GearsetOrganizer/README.md) | 0.1.0.0 | Preview and sort saved gearsets by role and job, preserve their references, and undo the last sort. |
 
 This is a custom repository, separate from Dalamud's default plugin repository.
