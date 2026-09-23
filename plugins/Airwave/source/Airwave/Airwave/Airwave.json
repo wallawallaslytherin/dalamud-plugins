@@ -1,0 +1,15 @@
+{
+  "Author": "Airwave contributors",
+  "Name": "Airwave",
+  "InternalName": "Airwave",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Broadcast live rekordbox audio or listen to a broadcast using continuous Opus audio. Open /airwave to connect. Capture and playback start only when you choose them.",
+  "Punchline": "Live audio broadcasts and listening.",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "Tags": ["audio", "music"],
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "AcceptsFeedback": false
+}

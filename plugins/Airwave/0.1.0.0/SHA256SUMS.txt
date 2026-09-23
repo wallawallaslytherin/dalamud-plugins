@@ -1,0 +1,3 @@
+df991d357ec8f298ac9b646d66a39c82d2389e0db5913ec9d77a2ff5aa8549a2  Airwave-0.1.0.0-win-x64.zip
+8e9963b8cd0af1b90da44a8057e3080eeb2bbf9556fe451caa5389ed289bcc1c  Airwave-Relay-0.1.0.0-win-x64.zip
+83f53acdc0a1c1c3b41af4e393faf6b01ffb03a3017015e612c9c977e06d99c7  Airwave-0.1.0.0-source.zip

@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Airwave contributors</Authors>
+    <Company>Airwave contributors</Company>
+    <Copyright>Copyright (c) Airwave contributors</Copyright>
+    <Product>Airwave</Product>
+    <AssemblyTitle>$(AssemblyName)</AssemblyTitle>
+    <Description>Airwave audio component</Description>
+    <Deterministic>true</Deterministic>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <PathMap>$(MSBuildThisFileDirectory)=/_/Airwave/</PathMap>
+    <PublishRepositoryUrl>false</PublishRepositoryUrl>
+    <EmbedUntrackedSources>false</EmbedUntrackedSources>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+  </PropertyGroup>
+</Project>

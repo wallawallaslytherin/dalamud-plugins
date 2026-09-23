@@ -12,7 +12,7 @@ Custom Dalamud plugin repository maintained by [wallawallaslytherin](https://git
    https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/pluginmaster.json
    ```
 
-4. Open `/xlplugins`, find **Hovercast** or **Gearset Organizer** under **All Plugins**, and install it.
+4. Open `/xlplugins`, find **Hovercast**, **Gearset Organizer**, or **Airwave** under **All Plugins**, and install it.
 
 Keep the repository enabled to receive updates through Dalamud's plugin installer.
 
@@ -22,6 +22,7 @@ Keep the repository enabled to receive updates through Dalamud's plugin installe
 | --- | --- | --- |
 | [Hovercast](plugins/FrameMouseover/README.md) | 0.2.3.0 | Automatic friendly mouseover, strict recipient protection, modifier overrides and optional ground placement. No spell lists or macros. |
 | [Gearset Organizer](plugins/GearsetOrganizer/README.md) | 0.1.0.0 | Preview and sort saved gearsets by role and job, preserve their references, and undo the last sort. |
+| [Airwave](plugins/Airwave/README.md) | 0.1.0.0 | Broadcast live rekordbox audio or join with a listener invite. Includes a one-click local sound test and bundled Windows audio helpers. |
 
 This is a custom repository, separate from Dalamud's default plugin repository.
 

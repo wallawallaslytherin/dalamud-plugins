@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsTestProject>true</IsTestProject>
+    <IsPackable>false</IsPackable>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <ProjectReference Include="../Airwave.AudioHost/Airwave.AudioHost.csproj" />
+  </ItemGroup>
+  <Target Name="CopyAudioHostForProcessTests" AfterTargets="Build">
+    <ItemGroup>
+      <AudioHostPayload Include="../Airwave.AudioHost/bin/$(Configuration)/net10.0-windows/*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(AudioHostPayload)" DestinationFolder="$(OutDir)audio-host" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

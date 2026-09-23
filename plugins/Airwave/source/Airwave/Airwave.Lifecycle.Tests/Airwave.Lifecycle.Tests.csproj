@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Airwave.Core\Airwave.Core.csproj" />
+    <Compile Include="..\Airwave\OwnedProcess.cs" Link="OwnedProcess.cs" />
+    <Compile Include="..\Airwave\ChildRuntimeEnvironment.cs" Link="ChildRuntimeEnvironment.cs" />
+    <Compile Include="..\Airwave\ListenerInvite.cs" Link="ListenerInvite.cs" />
+    <Compile Include="..\Airwave\UiState.cs" Link="UiState.cs" />
+    <Compile Include="..\Airwave\Configuration.cs" Link="Configuration.cs" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="10.0.0" />
+  </ItemGroup>
+</Project>

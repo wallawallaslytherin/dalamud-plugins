@@ -53,5 +53,31 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "Changelog": "Initial release: preview saved gearsets by role and job, sort with verified reference preservation, and undo the latest unchanged sort. Open with /gearsets. No companion plugin is required."
+  },
+  {
+    "Author": "Airwave contributors",
+    "Name": "Airwave",
+    "InternalName": "Airwave",
+    "AssemblyVersion": "0.1.0.0",
+    "Description": "Broadcast live rekordbox audio or listen to a broadcast using continuous Opus audio. Open /airwave to connect. Capture and playback start only when you choose them.",
+    "Punchline": "Live audio broadcasts and listening.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+      "audio",
+      "music"
+    ],
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "AcceptsFeedback": false,
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/Airwave/0.1.0.0/Airwave-0.1.0.0-win-x64.zip",
+    "IsTestingExclusive": false,
+    "IsHide": false,
+    "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
+    "Changelog": "Initial release: live rekordbox audio, listener invites, a one-click local sound test, and bundled Windows audio and relay helpers. Broadcasting requires Windows 11; remote broadcasts require a hosted TLS relay.",
+    "LastUpdate": 1790138988,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/Airwave/0.1.0.0/Airwave-0.1.0.0-win-x64.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/Airwave/0.1.0.0/Airwave-0.1.0.0-win-x64.zip"
   }
 ]
