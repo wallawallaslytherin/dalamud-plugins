@@ -17,11 +17,13 @@ click an ordinary hotbar icon ends that frame mouseover.
   hovered recipient when the game permits it.
 - Self-only abilities still affect yourself; party-only abilities remain party-only.
 - Queued actions keep the recipient chosen when you pressed the action.
-- Invalid friendly mouseovers are blocked by default, preventing accidental
+- Disappeared hovered units are blocked by default, preventing accidental
   fallback to yourself or a different selected recipient. Strict mode is configurable.
+- Hovercast does not pre-check spell permission, range, line of sight or dead/alive
+  requirements. Friendly casts go directly to the normal game handler.
 - Optional held modifiers force self-cast or bypass mouseover for that press.
 - Optional ground placement uses the hovered ally's feet, retains queueing, and
-  rechecks the recipient before execution. It starts disabled.
+  checks that the captured recipient still exists before placement. It starts disabled.
 - Hostile actions and explicit macros keep their normal behavior.
 - Range, line of sight, MP, cooldowns and other normal game restrictions apply.
 - With no friendly frame mouseover, normal targeting is preserved.
@@ -41,7 +43,7 @@ the final recipient.
 | `/hovercast history` | Show recent relevant casts and rejection reasons. |
 | `/hovercast on` or `recover` | Check dependencies, clear suspension and enable mouseover. |
 | `/hovercast off` | Disable mouseover casting. |
-| `/hovercast strict on` or `strict off` | Block invalid friendly mouseovers, or allow normal targeting fallback. |
+| `/hovercast strict on` or `strict off` | Block disappeared hovered units, or allow normal targeting fallback. |
 | `/hovercast ground on` or `ground off` | Enable or disable ground placement at hovered allies. |
 | `/hovercast bind self alt` | Example: hold Alt to cast on yourself when supported. |
 | `/hovercast bind bypass ctrl` | Example: hold Ctrl to use normal game targeting. |
@@ -64,6 +66,13 @@ a server-applied heal or effect.
 
 Follow the [repository installation instructions](../../README.md).
 Requires Dalamud API 15. No other plugin is required.
+
+## Version 0.2.4.0
+
+Remove cast-validation checks that could incorrectly block friendly spells and
+abilities. The game handles cast legality. Unit execution no longer runs a second
+validation pass. Queue targeting, modifiers and optional ground placement remain
+available. Existing settings are preserved.
 
 ## Version 0.2.2.0
 

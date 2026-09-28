@@ -3,8 +3,8 @@
     "Author": "Hovercast contributors",
     "Name": "Hovercast",
     "InternalName": "FrameMouseover",
-    "AssemblyVersion": "0.2.3.0",
-    "Description": "Automatic friendly casting through native unit frames, with no spell lists or macros. Includes strict invalid-recipient protection, self-cast and bypass modifiers, useful cast history, checked recovery, and optional ground placement at hovered allies. Keeps your selected target and native action queue.",
+    "AssemblyVersion": "0.2.4.0",
+    "Description": "Automatic friendly casting through native unit frames, with no spell lists or macros. Forwards friendly mouseover casts to the game without additional cast-permission checks. Includes modifier overrides, cast history and optional ground placement. Keeps your selected target and native action queue.",
     "ApplicableVersion": "any",
     "Tags": [
       "mouseover",
@@ -20,13 +20,13 @@
     "Punchline": "Automatic friendly mouseover casting with no spell lists.",
     "AcceptsFeedback": false,
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.3.0/FrameMouseover.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.3.0/FrameMouseover.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.3.0/FrameMouseover.zip",
-    "LastUpdate": 1790087619,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.4.0/FrameMouseover.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.4.0/FrameMouseover.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/FrameMouseover/0.2.4.0/FrameMouseover.zip",
+    "LastUpdate": 1790638239,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "Changelog": "Normalize build metadata and remove debug symbols from the package. Casting behavior and existing settings are unchanged."
+    "Changelog": "Remove Hovercast cast-permission, recipient-category, range, line-of-sight and dead/alive checks that could block valid friendly casts. The normal game handler decides whether the cast succeeds. Remove the second validation pass for unit execution. Preserve captured queue recipients, modifiers and optional ground placement."
   },
   {
     "Author": "wallawallaslytherin",
