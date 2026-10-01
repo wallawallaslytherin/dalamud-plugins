@@ -105,31 +105,31 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CameraControl/1.0.1.0/CameraControl.zip",
     "LastUpdate": 1790849417
   },
-{
-  "Author": "Character Copy contributors",
-  "Name": "Character Copy",
-  "InternalName": "CharacterSettingsCopy",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "Back up all local character settings, copy an entire character folder to other characters, and restore a backup.",
-  "Punchline": "Back up and copy complete character settings.",
-  "ApplicableVersion": "any",
-  "DalamudApiLevel": 15,
-  "LoadRequiredState": 0,
-  "LoadSync": false,
-  "CanUnloadAsync": false,
-  "Tags": [
-    "settings",
-    "backup",
-    "characters"
-  ],
-  "LastUpdate": 1790895837,
-  "IsHide": false,
-  "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.0.0.0/CharacterSettingsCopy.zip",
-  "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.0.0.0/CharacterSettingsCopy.zip",
-  "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
-  "AcceptsFeedback": false,
-  "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.0.0.0/CharacterSettingsCopy.zip",
-  "IsTestingExclusive": false,
-  "Changelog": "Initial release: /cc backs up and copies every source-character file to all other local characters while logged in. Synthetic transfer/recovery tests and live load validation passed; full in-game transfer and unsaved configuration persistence remain untested."
-}
+  {
+    "Author": "Character Copy contributors",
+    "Name": "Character Copy",
+    "InternalName": "CharacterSettingsCopy",
+    "AssemblyVersion": "1.1.0.0",
+    "Description": "Back up and copy complete character settings, undo the last copy, or restore a full backup.",
+    "Punchline": "Back up and copy complete character settings.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "Tags": [
+      "settings",
+      "backup",
+      "characters"
+    ],
+    "LastUpdate": 1790897364,
+    "IsHide": false,
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.1.0.0/CharacterSettingsCopy.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.1.0.0/CharacterSettingsCopy.zip",
+    "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
+    "AcceptsFeedback": false,
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.1.0.0/CharacterSettingsCopy.zip",
+    "IsTestingExclusive": false,
+    "Changelog": "Redesigned /cc window with source and destination summary, persistent Undo last copy, and confirmed full-backup recovery. Undo preserves the source and unrelated files and rejects changed copied settings. 73 synthetic checks and live load validation passed; visual UI acceptance, real in-game copy/undo/recovery and unsaved COMMON/CONTROL persistence remain untested."
+  }
 ]
