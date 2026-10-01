@@ -78,5 +78,31 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.1.0.0/HouseHeightLock.zip",
     "AcceptsFeedback": false,
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins"
+  },
+  {
+    "Author": "Cam Control contributors",
+    "Name": "Cam Control",
+    "InternalName": "CameraControl",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "Adjust zoom distance, field of view, camera height and collision strictly inside houses. Automatically restores the camera outside housing, during combat and in duties. Open with /cam.",
+    "Punchline": "Camera controls for house interiors only.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "Tags": [
+      "camera",
+      "zoom"
+    ],
+    "AcceptsFeedback": false,
+    "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CameraControl/1.0.0.0/CameraControl.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CameraControl/1.0.0.0/CameraControl.zip",
+    "IsHide": false,
+    "Changelog": "Initial release: house-interior camera zoom, field of view, height and collision controls. Open with /cam.",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CameraControl/1.0.0.0/CameraControl.zip",
+    "LastUpdate": 1790843782
   }
 ]
