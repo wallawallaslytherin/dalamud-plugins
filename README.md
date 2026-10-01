@@ -12,7 +12,7 @@ Custom Dalamud plugin repository maintained by [wallawallaslytherin](https://git
    https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/pluginmaster.json
    ```
 
-4. Open `/xlplugins`, find **Hovercast**, **Gearset Organizer**, **Z-Lock**, or **Cam Control** under **All Plugins**, and install it.
+4. Open `/xlplugins`, find **Hovercast**, **Gearset Organizer**, **Z-Lock**, **Cam Control**, or **Character Copy** under **All Plugins**, and install it.
 
 Keep the repository enabled to receive updates through Dalamud's plugin installer.
 
@@ -20,6 +20,7 @@ Keep the repository enabled to receive updates through Dalamud's plugin installe
 
 | Plugin | Version | Description |
 | --- | --- | --- |
+| [Character Copy](plugins/CharacterSettingsCopy/README.md) | 1.0.0.0 | `/cc`: back up and copy all local character-folder settings to every other existing character. Full in-game transfer remains untested. |
 | [Hovercast](plugins/FrameMouseover/README.md) | 0.2.4.0 | Automatic friendly mouseover, native cast handling, modifier overrides and optional ground placement. No spell lists or macros. |
 | [Gearset Organizer](plugins/GearsetOrganizer/README.md) | 0.1.0.0 | Preview and sort saved gearsets by role and job, preserve their references, and undo the last sort. |
 | [Z-Lock](plugins/HouseHeightLock/README.md) | 1.5.0.0 | Housing height lock with optional movement, player-presence killswitch and saved placement-mode activation. |
