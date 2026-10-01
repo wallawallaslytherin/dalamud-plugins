@@ -17,6 +17,12 @@ height stays locked. **WARNING: Use at your own risk!** Unlock before changing t
 It starts off after every plugin reload and is not saved. The same 1 cm lift and
 housing/session safety gates apply in either mode.
 
+Enable **Disable when another player is present** to refuse activation or unlock
+when any other player is detected in the house, with no distance filter. This
+option starts off after every reload and can change while locked. The lock does
+not resume automatically after other players leave. Detection uses the entire
+client player-object list; players not reported by the game cannot be detected.
+
 The lock starts off and is never saved. Leaving the interior, changing zones,
 logging out, entering GPose, mounting, entering combat or losing the current
 player or being moved by the game immediately clears it. Entering another house never relocks it. Closing
@@ -31,9 +37,12 @@ small amount. It has no adjustable height control. `/zlock status` reports the s
 Unlock another active position lock before using this one. Only one position
 writer can hold the lock in the current game process.
 
+Collapse or expand the window using its title bar. Collapsing it leaves the lock
+and enabled killswitch running.
+
 Requires Dalamud API 15 and .NET 10.
 
-Version 1.2.0.0 passes 3,196 isolated safety checks and position-lease tests.
-Gameplay movement, furniture traversal and warning appearance await in-game
-acceptance. The warning is always shown at the bottom in larger bold red text.
+Version 1.3.0.0 passes 3,210 isolated safety checks and position-lease tests.
+Native footing self-check and loading pass. Multiplayer killswitch behavior,
+furniture traversal and visual appearance still await gameplay acceptance.
 
