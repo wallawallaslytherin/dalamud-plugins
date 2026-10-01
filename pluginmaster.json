@@ -58,9 +58,9 @@
     "Author": "Z-Lock contributors",
     "Name": "Z-Lock",
     "InternalName": "HouseHeightLock",
-    "AssemblyVersion": "1.0.0.0",
-    "Description": "One button to hold your current vertical position inside player housing. Unlocks automatically when the housing session ends.",
-    "Punchline": "Hold your current height inside a house.",
+    "AssemblyVersion": "1.1.0.0",
+    "Description": "One button to lift you 1 cm and stay in place inside player housing. Movement is blocked while locked. Unlocks automatically when the housing session ends.",
+    "Punchline": "Lift 1 cm and stay still inside a house.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
@@ -69,13 +69,13 @@
     "Tags": [
       "housing"
     ],
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.0.0.0/HouseHeightLock.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.1.0.0/HouseHeightLock.zip",
     "IsTestingExclusive": false,
     "IsHide": false,
-    "Changelog": "Initial Z-Lock release: /zlock opens one house-only height lock/unlock button. Includes native temporary footing and automatic session invalidation. Running and real house-exit behavior remain unconfirmed in gameplay.",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.0.0.0/HouseHeightLock.zip",
-    "LastUpdate": 1790830009,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.0.0.0/HouseHeightLock.zip",
+    "Changelog": "Lift 1 cm when locking and hold height and horizontal position. Block movement and jumping while locked. Keep the window to one lock/unlock button and retain house-only activation and automatic unlock. Floated-furniture interaction, input blocking and unlock recovery still await gameplay checks.",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.1.0.0/HouseHeightLock.zip",
+    "LastUpdate": 1790838306,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.1.0.0/HouseHeightLock.zip",
     "AcceptsFeedback": false,
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins"
   }
