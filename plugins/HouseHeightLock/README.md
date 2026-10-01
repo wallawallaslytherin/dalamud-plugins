@@ -23,6 +23,13 @@ option starts off after every reload and can change while locked. The lock does
 not resume automatically after other players leave. Detection uses the entire
 client player-object list; players not reported by the game cannot be detected.
 
+Enable **Auto-enable in housing placement mode** to lock when you enter the
+housing placement UI. It starts off after reload. Enable it before entering;
+turning it on mid-placement waits for the next entry. Leaving placement mode or
+turning the option off unlocks only a lock created by this option. Manual locks
+are preserved. Manual unlocks, blocked activation and killswitch trips never
+retry until a fresh placement-mode entry. All housing and player-presence gates
+still apply. It uses the game's placement UI and requires no placement plugin.
 The lock starts off and is never saved. Leaving the interior, changing zones,
 logging out, entering GPose, mounting, entering combat or losing the current
 player or being moved by the game immediately clears it. Entering another house never relocks it. Closing
@@ -38,11 +45,11 @@ Unlock another active position lock before using this one. Only one position
 writer can hold the lock in the current game process.
 
 Collapse or expand the window using its title bar. Collapsing it leaves the lock
-and enabled killswitch running.
+and enabled safety checks running.
 
 Requires Dalamud API 15 and .NET 10.
 
-Version 1.3.0.0 passes 3,210 isolated safety checks and position-lease tests.
-Native footing self-check and loading pass. Multiplayer killswitch behavior,
-furniture traversal and visual appearance still await gameplay acceptance.
+Version 1.4.0.0 passes 3,210 safety checks, position-lease tests and twelve
+placement-transition checks. Actual placement-mode entry/exit, multiplayer
+behavior and UI appearance still await gameplay acceptance.
 
