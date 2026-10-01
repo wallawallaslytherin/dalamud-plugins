@@ -22,7 +22,7 @@ Keep the repository enabled to receive updates through Dalamud's plugin installe
 | --- | --- | --- |
 | [Hovercast](plugins/FrameMouseover/README.md) | 0.2.4.0 | Automatic friendly mouseover, native cast handling, modifier overrides and optional ground placement. No spell lists or macros. |
 | [Gearset Organizer](plugins/GearsetOrganizer/README.md) | 0.1.0.0 | Preview and sort saved gearsets by role and job, preserve their references, and undo the last sort. |
-| [Z-Lock](plugins/HouseHeightLock/README.md) | 1.4.0.0 | Housing height lock with optional movement, player-presence killswitch and placement-mode activation. |
+| [Z-Lock](plugins/HouseHeightLock/README.md) | 1.5.0.0 | Housing height lock with optional movement, player-presence killswitch and saved placement-mode activation. |
 | [Cam Control](plugins/CameraControl/README.md) | 1.0.1.0 | Camera zoom, field of view, height and collision controls inside houses. |
 
 This is a custom repository, separate from Dalamud's default plugin repository.
@@ -40,6 +40,7 @@ updates without a reinstall or loss of settings.
 
 Each install ZIP contains the DLL, matching plugin manifest and runtime dependency
 metadata at the archive root. Dalamud itself supplies the SDK assemblies.
+
 
 
 
