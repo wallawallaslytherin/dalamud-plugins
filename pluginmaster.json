@@ -53,5 +53,30 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "Changelog": "Initial release: preview saved gearsets by role and job, sort with verified reference preservation, and undo the latest unchanged sort. Open with /gearsets. No companion plugin is required."
+  },
+  {
+    "Author": "Z-Lock contributors",
+    "Name": "Z-Lock",
+    "InternalName": "HouseHeightLock",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "One button to hold your current vertical position inside player housing. Unlocks automatically when the housing session ends.",
+    "Punchline": "Hold your current height inside a house.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "Tags": [
+      "housing"
+    ],
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.0.0.0/HouseHeightLock.zip",
+    "IsTestingExclusive": false,
+    "IsHide": false,
+    "Changelog": "Initial Z-Lock release: /zlock opens one house-only height lock/unlock button. Includes native temporary footing and automatic session invalidation. Running and real house-exit behavior remain unconfirmed in gameplay.",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.0.0.0/HouseHeightLock.zip",
+    "LastUpdate": 1790830009,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.0.0.0/HouseHeightLock.zip",
+    "AcceptsFeedback": false,
+    "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins"
   }
 ]

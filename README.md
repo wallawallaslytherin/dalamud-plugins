@@ -1,18 +1,41 @@
 # Dalamud plugins
 
-Custom Dalamud plugin repository.
+Custom Dalamud plugin repository maintained by [wallawallaslytherin](https://github.com/wallawallaslytherin).
 
 ## Install
 
-Open `/xlsettings`, select Experimental and Custom Plugin Repositories, then
-add and enable the repository URL:
+1. In FFXIV with Dalamud loaded, enter `/xlsettings`.
+2. Open **Experimental**, then **Custom Plugin Repositories**.
+3. Paste this URL, add it, enable the entry, and save:
 
-```text
-https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/pluginmaster.json
-```
+   ```text
+   https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/pluginmaster.json
+   ```
 
-Open `/xlplugins` to install the available plugins. Keep the repository enabled
-to receive updates through Dalamud's plugin installer.
+4. Open `/xlplugins`, find **Hovercast**, **Gearset Organizer**, or **Z-Lock** under **All Plugins**, and install it.
 
-The feed lists plugin versions and download URLs. Installation ZIPs contain the
-runtime DLL, plugin manifest and required runtime metadata/assets.
+Keep the repository enabled to receive updates through Dalamud's plugin installer.
+
+## Plugins
+
+| Plugin | Version | Description |
+| --- | --- | --- |
+| [Hovercast](plugins/FrameMouseover/README.md) | 0.2.4.0 | Automatic friendly mouseover, native cast handling, modifier overrides and optional ground placement. No spell lists or macros. |
+| [Gearset Organizer](plugins/GearsetOrganizer/README.md) | 0.1.0.0 | Preview and sort saved gearsets by role and job, preserve their references, and undo the last sort. |
+| [Z-Lock](plugins/HouseHeightLock/README.md) | 1.0.0.0 | One button to lock or unlock current height inside player housing. |
+
+This is a custom repository, separate from Dalamud's default plugin repository.
+
+## Updates
+
+Install updates through `/xlplugins`. Existing Hovercast installations receive
+updates without a reinstall or loss of settings.
+
+## Repository layout
+
+- `pluginmaster.json`: the URL to add to Dalamud; lists current plugin versions.
+- `plugins/<InternalName>/<version>/`: versioned install ZIPs and SHA-256 checksums.
+- `plugins/<InternalName>/README.md`: usage documentation for each plugin.
+
+Each install ZIP contains the DLL, matching plugin manifest and runtime dependency
+metadata at the archive root. Dalamud itself supplies the SDK assemblies.
