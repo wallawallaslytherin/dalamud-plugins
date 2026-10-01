@@ -58,7 +58,7 @@
     "Author": "Z-Lock contributors",
     "Name": "Z-Lock",
     "InternalName": "HouseHeightLock",
-    "AssemblyVersion": "1.5.0.0",
+    "AssemblyVersion": "1.5.1.0",
     "Description": "Lift 1 cm and lock inside player housing. Optional movement, player-presence killswitch and activation on placement-mode entry. Use at your own risk.",
     "Punchline": "Lift 1 cm and stay still inside a house.",
     "ApplicableVersion": "any",
@@ -69,13 +69,13 @@
     "Tags": [
       "housing"
     ],
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.5.0.0/HouseHeightLock.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.5.1.0/HouseHeightLock.zip",
     "IsTestingExclusive": false,
     "IsHide": false,
-    "Changelog": "Fix placement activation using the native housing editing state instead of UI visibility. Auto-enable choice now saves and restores; new installs start off. Enabling during placement or loading with a saved enabled choice attempts activation once. Keep safety gates, ownership-aware exit and no retry after manual unlock. Native placement activation verified; multiplayer and full movement/exit behavior remain unverified.",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.5.0.0/HouseHeightLock.zip",
+    "Changelog": "Coordinate position control with compatible Collider versions. Collider yields collision while Z-Lock holds position and resumes after unlock; both remain enabled. Live acquisition and collision resumption verified; full walking behavior remains unverified.",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.5.1.0/HouseHeightLock.zip",
     "LastUpdate": 1790890486,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.5.0.0/HouseHeightLock.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.5.1.0/HouseHeightLock.zip",
     "AcceptsFeedback": false,
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins"
   },
