@@ -109,8 +109,8 @@
     "Author": "Character Copy contributors",
     "Name": "Character Copy",
     "InternalName": "CharacterSettingsCopy",
-    "AssemblyVersion": "1.1.0.0",
-    "Description": "Back up and copy complete character settings, undo the last copy, or restore a full backup.",
+    "AssemblyVersion": "1.2.0.0",
+    "Description": "Copy complete character settings to other characters, import from another local character, undo the last transfer, or restore a full backup.",
     "Punchline": "Back up and copy complete character settings.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -122,14 +122,14 @@
       "backup",
       "characters"
     ],
-    "LastUpdate": 1790897364,
+    "LastUpdate": 1790900586,
     "IsHide": false,
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.1.0.0/CharacterSettingsCopy.zip",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.1.0.0/CharacterSettingsCopy.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.2.0.0/CharacterSettingsCopy.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.2.0.0/CharacterSettingsCopy.zip",
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
     "AcceptsFeedback": false,
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.1.0.0/CharacterSettingsCopy.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.2.0.0/CharacterSettingsCopy.zip",
     "IsTestingExclusive": false,
-    "Changelog": "Redesigned /cc window with source and destination summary, persistent Undo last copy, and confirmed full-backup recovery. Undo preserves the source and unrelated files and rejects changed copied settings. 73 synthetic checks and live load validation passed; visual UI acceptance, real in-game copy/undo/recovery and unsaved COMMON/CONTROL persistence remain untested."
+    "Changelog": "Import settings from any other existing local character into one selected destination at the title screen, with source/destination selectors, backup, confirmation and Undo last import. Character names/worlds are remembered when available. 102 synthetic checks passed; UI, lobby-name discovery, loaded validation and real in-game workflow remain unverified for this version."
   }
 ]
