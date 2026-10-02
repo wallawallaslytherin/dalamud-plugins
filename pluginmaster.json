@@ -109,7 +109,7 @@
     "Author": "Character Copy contributors",
     "Name": "Character Copy",
     "InternalName": "CharacterSettingsCopy",
-    "AssemblyVersion": "1.2.0.0",
+    "AssemblyVersion": "1.2.1.0",
     "Description": "Copy complete character settings to other characters, import from another local character, undo the last transfer, or restore a full backup.",
     "Punchline": "Back up and copy complete character settings.",
     "ApplicableVersion": "any",
@@ -122,14 +122,14 @@
       "backup",
       "characters"
     ],
-    "LastUpdate": 1790900586,
+    "LastUpdate": 1790901430,
     "IsHide": false,
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.2.0.0/CharacterSettingsCopy.zip",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.2.0.0/CharacterSettingsCopy.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.2.1.0/CharacterSettingsCopy.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.2.1.0/CharacterSettingsCopy.zip",
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
     "AcceptsFeedback": false,
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.2.0.0/CharacterSettingsCopy.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.2.1.0/CharacterSettingsCopy.zip",
     "IsTestingExclusive": false,
-    "Changelog": "Import settings from any other existing local character into one selected destination at the title screen, with source/destination selectors, backup, confirmation and Undo last import. Character names/worlds are remembered when available. 102 synthetic checks passed; UI, lobby-name discovery, loaded validation and real in-game workflow remain unverified for this version."
+    "Changelog": "Character selectors now read saved local name/world records while logged out and show known names without folder IDs. Handles BOM encodings, ID variants and partial saves. Name-reader checks and build passed; transfer behavior unchanged. Current-version visual UI and loaded validation remain unverified."
   }
 ]
