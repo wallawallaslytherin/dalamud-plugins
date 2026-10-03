@@ -131,5 +131,32 @@
     "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CharacterSettingsCopy/1.2.1.0/CharacterSettingsCopy.zip",
     "IsTestingExclusive": false,
     "Changelog": "Character selectors now read saved local name/world records while logged out and show known names without folder IDs. Handles BOM encodings, ID variants and partial saves. Name-reader checks and build passed; transfer behavior unchanged. Current-version visual UI and loaded validation remain unverified."
+  },
+  {
+    "Author": "SyncFix contributors",
+    "Name": "SyncFix",
+    "InternalName": "SyncFix",
+    "AssemblyVersion": "1.2.0.0",
+    "Description": "Diagnose and repair PlayerSync/Stagehand stage reception. Open /syncfix.",
+    "Punchline": "Find and fix missing stages.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "Tags": [
+      "housing",
+      "sync",
+      "diagnostics"
+    ],
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/SyncFix/1.2.0.0/SyncFix.zip",
+    "AcceptsFeedback": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/SyncFix/1.2.0.0/SyncFix.zip",
+    "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
+    "IsHide": false,
+    "LastUpdate": 1791002970,
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/SyncFix/1.2.0.0/SyncFix.zip",
+    "Changelog": "Start support without entering a stage ID or copying a code. One-hour background diagnostics and scoped PlayerSync/Stagehand repairs."
   }
 ]
