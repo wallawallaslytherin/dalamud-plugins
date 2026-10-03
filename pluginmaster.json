@@ -136,9 +136,9 @@
     "Author": "SyncFix contributors",
     "Name": "SyncFix",
     "InternalName": "SyncFix",
-    "AssemblyVersion": "1.3.1.0",
-    "Description": "Diagnose and repair PlayerSync/Stagehand stage reception. Open /syncfix.",
-    "Punchline": "Find and fix missing stages.",
+    "AssemblyVersion": "1.4.0.0",
+    "Description": "Diagnose PlayerSync/Stagehand stage reception. Open /syncfix.",
+    "Punchline": "Troubleshoot stage reception.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
@@ -149,14 +149,14 @@
       "sync",
       "diagnostics"
     ],
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/SyncFix/1.3.1.0/SyncFix.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/SyncFix/1.4.0.0/SyncFix.zip",
     "AcceptsFeedback": false,
     "IsTestingExclusive": false,
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/SyncFix/1.3.1.0/SyncFix.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/SyncFix/1.4.0.0/SyncFix.zip",
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
     "IsHide": false,
-    "LastUpdate": 1791006781,
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/SyncFix/1.3.1.0/SyncFix.zip",
-    "Changelog": "Support a separate sky scene alongside the DJ stage. No stage ID or code entry. Check and repair both selected scenes, with separate status and one-hour support sessions."
+    "LastUpdate": 1791055242,
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/SyncFix/1.4.0.0/SyncFix.zip",
+    "Changelog": "Diagnosis-only support. Approved installation access is required. Owner checks are authenticated; repair commands are disabled."
   }
 ]
