@@ -23,8 +23,6 @@ If you are not comfortable accepting these risks, do not install or use the plug
 Usage guides:
 - [Hovercast](plugins/FrameMouseover/README.md)
 - [Gearset Organizer](plugins/GearsetOrganizer/README.md)
-- [Z-Lock](plugins/HouseHeightLock/README.md)
-- [Cam Control](plugins/CameraControl/README.md)
 - [Character Copy](plugins/CharacterSettingsCopy/README.md)
 - [ColorCode](plugins/InventoryColors/README.md)
 - [AutoStage](plugins/AutoStage/README.md)
