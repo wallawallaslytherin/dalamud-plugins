@@ -113,8 +113,8 @@
     "Author": "AutoStage contributors",
     "Name": "AutoStage",
     "InternalName": "AutoStage",
-    "AssemblyVersion": "0.1.0.2",
-    "Description": "Automatically join a configured estate's syncshell and load its stages. PlayerSync must already be set up. Use /autostage for status.",
+    "AssemblyVersion": "0.2.1.0",
+    "Description": "Automatically join a configured estate's syncshell and load its stages. Authenticate in PlayerSync or Lightless first. Use /autostage for status.",
     "Punchline": "Automatic estate stages.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -126,13 +126,13 @@
       "stage"
     ],
     "IsHide": false,
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.2/AutoStage.zip",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.2/AutoStage.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.2.1.0/AutoStage.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.2.1.0/AutoStage.zip",
     "AcceptsFeedback": false,
-    "LastUpdate": 1791610545,
+    "LastUpdate": 1791636115,
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
     "IsTestingExclusive": false,
-    "Changelog": "Wait for PlayerSync initialization and syncshell membership before subscribing. Retry incomplete data automatically with bounded delays; preserve unconfirmed-change safeguards.",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.2/AutoStage.zip"
+    "Changelog": "Choose the authenticated PlayerSync or Lightless route, preferring PlayerSync when both are ready. Automatically join the chosen venue syncshell and subscribe its stages or Intoner layout; keep only one estate renderer active. New Lightless guest onboarding has not yet been verified in game. Previous 0.1.0.2 package retained.",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.2.1.0/AutoStage.zip"
   }
 ]
