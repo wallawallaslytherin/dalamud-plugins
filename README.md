@@ -26,5 +26,4 @@ Usage guides:
 - [Character Copy](plugins/CharacterSettingsCopy/README.md)
 - [ColorCode](plugins/InventoryColors/README.md)
 - [AutoStage](plugins/AutoStage/README.md)
-- [Z-Lock](plugins/HouseHeightLock/README.md)
-- [Cam Control](plugins/CameraControl/README.md)
+

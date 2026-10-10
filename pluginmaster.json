@@ -134,56 +134,5 @@
     "IsTestingExclusive": false,
     "Changelog": "Choose the authenticated PlayerSync or Lightless route, preferring PlayerSync when both are ready. Automatically join the chosen venue syncshell and subscribe its stages or Intoner layout; keep only one estate renderer active. New Lightless guest onboarding has not yet been verified in game. Previous 0.1.0.2 package retained.",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.2.1.0/AutoStage.zip"
-  },
-  {
-    "Author": "Z-Lock contributors",
-    "Name": "Z-Lock",
-    "InternalName": "HouseHeightLock",
-    "AssemblyVersion": "1.7.1.0",
-    "Description": "Open /zlock inside a player house, choose a lift, and press Lock Height & Movement. Press Unlock to release it.",
-    "Punchline": "Adjust your lift and stay still inside a house.",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 15,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "Tags": [
-      "housing"
-    ],
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.7.1.0/HouseHeightLock.zip",
-    "IsTestingExclusive": false,
-    "IsHide": false,
-    "Changelog": "",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.7.1.0/HouseHeightLock.zip",
-    "LastUpdate": 1791243496,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/HouseHeightLock/1.7.1.0/HouseHeightLock.zip",
-    "AcceptsFeedback": false,
-    "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins"
-  },
-  {
-    "Author": "Cam Control contributors",
-    "Name": "Cam Control",
-    "InternalName": "CameraControl",
-    "AssemblyVersion": "1.1.1.0",
-    "Description": "Open /cam inside a player house to adjust zoom, field of view, camera height and collision.",
-    "Punchline": "Camera controls for house interiors only.",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 15,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "Tags": [
-      "camera",
-      "zoom"
-    ],
-    "AcceptsFeedback": false,
-    "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
-    "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CameraControl/1.1.1.0/CameraControl.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CameraControl/1.1.1.0/CameraControl.zip",
-    "IsHide": false,
-    "Changelog": "",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/CameraControl/1.1.1.0/CameraControl.zip",
-    "LastUpdate": 1791243496
   }
 ]
