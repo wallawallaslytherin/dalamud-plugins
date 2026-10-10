@@ -164,7 +164,7 @@
     "Author": "AutoStage contributors",
     "Name": "AutoStage",
     "InternalName": "AutoStage",
-    "AssemblyVersion": "0.1.0.1",
+    "AssemblyVersion": "0.1.0.2",
     "Description": "Automatically join a configured estate's syncshell and load its stages. PlayerSync must already be set up. Use /autostage for status.",
     "Punchline": "Automatic estate stages.",
     "ApplicableVersion": "any",
@@ -177,13 +177,13 @@
       "stage"
     ],
     "IsHide": false,
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.1/AutoStage.zip",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.1/AutoStage.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.2/AutoStage.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.2/AutoStage.zip",
     "AcceptsFeedback": false,
-    "LastUpdate": 1791609785,
+    "LastUpdate": 1791610545,
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
     "IsTestingExclusive": false,
-    "Changelog": "Fix guest joining when optional syncshell rules are missing. Unsupported data errors now identify the field. Fresh visitor rendering remains unverified.",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.1/AutoStage.zip"
+    "Changelog": "Wait for PlayerSync initialization and syncshell membership before subscribing. Retry incomplete data automatically with bounded delays; preserve unconfirmed-change safeguards.",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.2/AutoStage.zip"
   }
 ]
