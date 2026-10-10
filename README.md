@@ -27,3 +27,4 @@ Usage guides:
 - [Cam Control](plugins/CameraControl/README.md)
 - [Character Copy](plugins/CharacterSettingsCopy/README.md)
 - [ColorCode](plugins/InventoryColors/README.md)
+- [AutoStage](plugins/AutoStage/README.md)

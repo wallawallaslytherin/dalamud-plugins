@@ -159,5 +159,31 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "Changelog": ""
-  }
+  },
+{
+  "Author": "AutoStage contributors",
+  "Name": "AutoStage",
+  "InternalName": "AutoStage",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Automatically join a configured estate's syncshell and load its stages. PlayerSync must already be set up. Use /autostage for status.",
+  "Punchline": "Automatic estate stages.",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "Tags": [
+    "housing",
+    "stage"
+  ],
+  "IsHide": false,
+  "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.0/AutoStage.zip",
+  "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.0/AutoStage.zip",
+  "AcceptsFeedback": false,
+  "LastUpdate": 1791608704,
+  "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
+  "IsTestingExclusive": false,
+  "Changelog": "Initial release. Local estate onboarding verified; fresh guest setup, automatic Stagehand installation and guest rendering remain unverified.",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/AutoStage/0.1.0.0/AutoStage.zip"
+}
 ]
