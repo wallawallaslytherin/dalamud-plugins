@@ -27,3 +27,4 @@ Usage guides:
 - [ColorCode](plugins/InventoryColors/README.md)
 - [AutoStage](plugins/AutoStage/README.md)
 
+- [QuickStash](plugins/QuickStash/README.md)
