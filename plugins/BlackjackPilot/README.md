@@ -6,6 +6,10 @@ Plays your blackjack hand in Aetherphone’s Gamba. Requires Aetherphone 1.3.3.0
 2. Open `/blackjackpilot` and click **Turn on**, or use `/blackjackpilot on`.
 3. Click **Turn off** or use `/blackjackpilot off` to stop.
 
+Use **Finish this hand** or `/blackjackpilot finish` to finish your current wager
+and stop before placing another bet. The window shows completed hands and your
+session’s net result. Betting preferences are saved; autoplay always starts off.
+
 Table rules are read automatically. Autoplay starts off and stops if your seat
 changes, Gamba disconnects, the rules change, or an action remains unresolved.
 Check the table before enabling again. Turning off cannot retract a sent action.
@@ -22,6 +26,8 @@ Change settings while autoplay is off. Uncheck **Place bets** to bet manually.
 You control seating, transfers, rebuys, and cashout. Avoid manual bets or stack
 transfers during an automatic session; they change its budget accounting.
 
-The strategy uses your hand and the dealer’s visible card, without card counting.
-It approximates a finite shoe using independent draws; it cannot guarantee wins.
+The strategy accounts for cards visible in the current hand and the table’s
+dealer-peek rule. Split decisions and calculations that exceed the time limit use
+an approximation, shown in the window. Model return is a table estimate, not a
+prediction of your session’s results. No strategy guarantees wins.
 Use `/blackjackpilot status` to check its state.
