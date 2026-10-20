@@ -28,3 +28,5 @@ Usage guides:
 - [AutoStage](plugins/AutoStage/README.md)
 
 - [QuickStash](plugins/QuickStash/README.md)
+
+- [Blackjack Pilot](plugins/BlackjackPilot/README.md)
