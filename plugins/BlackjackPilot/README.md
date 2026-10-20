@@ -1,33 +1,19 @@
 # Blackjack Pilot
 
-Plays blackjack hands through your connected SimpleMiniGames seat using the
-table's available actions. Requires SimpleMiniGames 1.0.2.5.
+Plays your blackjack hand in Aetherphone’s Gamba. Requires Aetherphone 1.3.3.0.
 
-1. Join your dealer's blackjack seat in SimpleMiniGames using your player link.
-2. Open `/blackjackpilot` and match the rules to your dealer's table.
-3. Check **These rules match my table**, then click **Turn on**.
-4. Click **Turn off** or use `/blackjackpilot off` to stop.
+1. Open Gamba, sit at a blackjack table, and place your bet.
+2. Open `/blackjackpilot` and click **Turn on**, or use `/blackjackpilot on`.
+3. Click **Turn off** or use `/blackjackpilot off` to stop.
 
-The plugin starts off after loading and stops on logout, disconnect, a changed
-seat, or an unresolved action. Reconnect and check the table before enabling
-again. Turning it off cannot retract an action already sent.
+Table rules are read automatically. Autoplay starts off and stops if your seat
+changes, Gamba disconnects, the rules change, or an action remains unresolved.
+Check the table before enabling again. Turning off cannot retract a sent action.
 
-It chooses between hit, stand, double, split, and surrender by expected gil
-return. You and your dealer control joining, bets, bank transfers, and cashout.
-Splitting and doubling can increase the wager on a hand.
+It chooses hit, stand, double, split, or surrender for expected return and declines
+insurance. Splitting and doubling can increase the stake on your current hand.
+You control seating, new bets, transfers, and cashout.
 
-Use tables where the dealer stands on hard 17, with the displayed soft-17,
-double, and split settings. The model treats ranks as independent random draws.
-For a finite shoe it is an approximation, without card counting. Surrender is
-modeled as a half-stake loss; without a dealer blackjack check, a dealer natural
-loses the full stake, including split and doubled stakes. Charlie is modeled as
-an even-money automatic win except against dealer blackjack. Do not enable it
-on tables with different payouts, bonus rules, or rule precedence.
-
-Expected return is not a guaranteed win, and maximizing return does not mean
-winning the largest possible percentage of hands. The plugin uses only your
-hand and the dealer's visible card. It does not place new bets or increase
-bets to recover losses.
-
-`/blackjackpilot status` shows its current state. If an action is unresolved,
-wait for Gamba's hand display to update before enabling again.
+The strategy uses your hand and the dealer’s visible card, without card counting.
+It approximates a finite shoe using independent draws; it cannot guarantee wins.
+Use `/blackjackpilot status` to check its state.

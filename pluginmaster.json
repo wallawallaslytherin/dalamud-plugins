@@ -163,8 +163,8 @@
     "Author": "Blackjack Pilot contributors",
     "Name": "Blackjack Pilot",
     "InternalName": "BlackjackPilot",
-    "AssemblyVersion": "1.0.0.0",
-    "Description": "Opt-in blackjack hand play for a connected SimpleMiniGames seat. Match the table rules, then enable with /blackjackpilot.",
+    "AssemblyVersion": "1.1.0.0",
+    "Description": "Opt-in blackjack hand play for Aetherphone Gamba. Sit at a table, then enable with /blackjackpilot. Reads table rules automatically.",
     "Punchline": "Rule-aware blackjack hand play.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -177,9 +177,9 @@
       "minigames"
     ],
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.0.0.0/BlackjackPilot.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.0.0.0/BlackjackPilot.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.0.0.0/BlackjackPilot.zip",
-    "LastUpdate": 1792466513
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.1.0.0/BlackjackPilot.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.1.0.0/BlackjackPilot.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.1.0.0/BlackjackPilot.zip",
+    "LastUpdate": 1792479726
   }
 ]
