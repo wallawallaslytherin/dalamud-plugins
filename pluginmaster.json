@@ -163,9 +163,9 @@
     "Author": "Blackjack Pilot contributors",
     "Name": "Blackjack Pilot",
     "InternalName": "BlackjackPilot",
-    "AssemblyVersion": "1.1.0.0",
-    "Description": "Opt-in blackjack hand play for Aetherphone Gamba. Sit at a table, then enable with /blackjackpilot. Reads table rules automatically.",
-    "Punchline": "Rule-aware blackjack hand play.",
+    "AssemblyVersion": "1.2.0.0",
+    "Description": "Opt-in blackjack play and automatic gil or practice bets for Aetherphone Gamba. Sit at a table, then enable with /blackjackpilot. Reads table rules automatically.",
+    "Punchline": "Blackjack play and budgeted betting.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
@@ -177,9 +177,9 @@
       "minigames"
     ],
     "RepoUrl": "https://github.com/wallawallaslytherin/dalamud-plugins",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.1.0.0/BlackjackPilot.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.1.0.0/BlackjackPilot.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.1.0.0/BlackjackPilot.zip",
-    "LastUpdate": 1792479726
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.2.0.0/BlackjackPilot.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.2.0.0/BlackjackPilot.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wallawallaslytherin/dalamud-plugins/main/plugins/BlackjackPilot/1.2.0.0/BlackjackPilot.zip",
+    "LastUpdate": 1792482498
   }
 ]
